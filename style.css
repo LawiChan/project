@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+
+h1 {
+    font-family: 'dancing script', cursive ;
+    text-align: center;
+    font-size: 4em;
+    text-shadow:30px #ffd700;
+    color: rgb(172, 101, 10);
+
+}
+
+h2, h3 {
+    text-shadow:30px #ffd700;
+    color: #a52a2a;
+    font-style: italic;
+}
+
+nav {
+    background-color: rgb(217, 165, 33);
+    line-height:3.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav  a {
+    text-decoration: none;
+    padding-right:5px; 
+    padding-left: 5px;
+}
+
+nav li {
+    display: inline;
+    
+}
+
+nav a:link {
+    color:#a52a2a;
+}
+
+nav a:visited {
+    color:#1f0303;
+}
+
+nav a:hover {
+    color:#0026ff;
+}
+
+nav a:active {
+    color:#009370;
+}
+
+.header-image{
+	max-width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	height: auto;
+    border-radius: 30px;
+}
+
+
+.img-fluid {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.gallery-thumbnails {
+    border-radius:5px;
+}
+
+.gallery .preview {
+    width:100%;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+blockquote{
+    border-left: 10px solid #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color:aliceblue;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+main {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+main .fa{
+    font-size: 5em;
+    color:#f5f5f5;
+    padding:30px;
+}
+
+p {
+    font-weight: bold;
+    font-style: italic;
+}
+  
+footer .fa {
+    font-size: 1.5em;
+    color: black;  
+}
+
+footer {
+    padding: 10px;
+    background-color:rgb(217, 165, 33);
+}
+
+
+ /*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 3em;
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+h1{
+    font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+h1{
+    font-size: 1.5em;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+}
